@@ -1,0 +1,25 @@
+{
+  "url": "https://www.google.com/",
+  "capabilities": {
+    "build": "browserstack-build-1",
+    "name": "parallel_test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "env1": {
+      "browser": "chrome"
+    },
+    "env2": {
+      "browser": "firefox"
+    },
+    "env3": {
+      "os": "OS X",
+      "browser": "safari"
+    },
+    "env4": {
+      "device": "Google Pixel 4",
+      "os_version": "11.0"
+    }
+  }
+}

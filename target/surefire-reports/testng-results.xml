@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-13T06:39:56Z" name="com.browserstack.tests.SampleTest" finished-at="2021-04-13T06:41:21Z" duration-ms="85355">
+    <groups>
+    </groups>
+    <test started-at="2021-04-13T06:39:56Z" name="Command line test" finished-at="2021-04-13T06:41:21Z" duration-ms="85355">
+      <class name="com.browserstack.tests.SampleTest">
+        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@233fe9b6]" started-at="2021-04-13T12:09:56Z" name="testCase1" data-provider="CAPS" finished-at="2021-04-13T12:10:27Z" duration-ms="30895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"browser":"chrome"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@233fe9b6]" started-at="2021-04-13T12:10:27Z" name="testCase1" data-provider="CAPS" finished-at="2021-04-13T12:10:45Z" duration-ms="18083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"browser":"firefox"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@233fe9b6]" started-at="2021-04-13T12:10:45Z" name="testCase1" data-provider="CAPS" finished-at="2021-04-13T12:10:57Z" duration-ms="12568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"os":"OS X","browser":"safari"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@233fe9b6]" started-at="2021-04-13T12:10:57Z" name="testCase1" data-provider="CAPS" finished-at="2021-04-13T12:11:21Z" duration-ms="23795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"os_version":"11.0","device":"Google Pixel 4"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.browserstack.tests.SampleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.browserstack.tests.SampleTest -->
+</testng-results>
