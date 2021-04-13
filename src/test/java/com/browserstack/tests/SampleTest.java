@@ -38,22 +38,15 @@ public class SampleTest {
 
     @Test(dataProvider = "CAPS")
     public  void testCase1( JSONObject env) throws Exception{
-        System.out.println(env);
-
         DesiredCapabilities capabilities = new DesiredCapabilities();
-
         setDeviceCapabilities(env,capabilities);
-
         driver = new RemoteWebDriver(
                 new URL("http://" + USERNAME + ":" + ACCESSKEY + "@" + SERVER + "/wd/hub"), capabilities);
-        System.out.println("Caps are "+capabilities);
         driver.get((String) config.get("url"));
-
         HomePage homePage = new HomePage(driver);
         homePage.searchText();
         Thread.sleep(5000);
         Assert.assertEquals("BrowserStack - Google Search", driver.getTitle());
-
         tearDown(driver);
     }
 

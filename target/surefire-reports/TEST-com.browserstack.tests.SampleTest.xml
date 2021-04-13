@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.browserstack.tests.SampleTest" time="85.342" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.browserstack.tests.SampleTest" time="87.8" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
@@ -61,8 +61,8 @@
     <property name="java.vendor.version" value="18.9"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="30.897"/>
-  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="18.08"/>
-  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="12.569"/>
-  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="23.796"/>
+  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="24.515"/>
+  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="26.607"/>
+  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="14.322"/>
+  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="22.356"/>
 </testsuite>
