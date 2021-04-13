@@ -1,2 +1,3 @@
 # sagepub-demoRep
-Include username and accessKey in SampleTest and run ```mvn test```
+Include username and accessKey in SampleTest under (src/test/java/com/browserstack/tests) </br>
+Run ```mvn test```
