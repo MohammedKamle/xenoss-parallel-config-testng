@@ -14,8 +14,8 @@ import java.util.Iterator;
 import java.util.Map;
 
 public class SampleTest {
-    public static  final String USERNAME = "mohammedk1";
-    public static  final String ACCESSKEY = "spBCpUJaVTnvxxssFtEJ";
+    public static  final String USERNAME = "";
+    public static  final String ACCESSKEY = "";
     public static  final String SERVER = "hub-cloud.browserstack.com";
     public WebDriver driver;
 
