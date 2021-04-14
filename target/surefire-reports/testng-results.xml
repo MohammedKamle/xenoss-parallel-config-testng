@@ -2,12 +2,12 @@
 <testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-14T06:24:40Z" name="com.browserstack.tests.SampleTest" finished-at="2021-04-14T06:25:50Z" duration-ms="70491">
+  <suite started-at="2021-04-14T10:47:51Z" name="Command line suite" finished-at="2021-04-14T10:49:17Z" duration-ms="86548">
     <groups>
     </groups>
-    <test started-at="2021-04-14T06:24:40Z" name="Command line test" finished-at="2021-04-14T06:25:50Z" duration-ms="70491">
+    <test started-at="2021-04-14T10:47:51Z" name="Command line test" finished-at="2021-04-14T10:49:17Z" duration-ms="86548">
       <class name="com.browserstack.tests.SampleTest">
-        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@60dcc9fe]" started-at="2021-04-14T11:54:40Z" name="testCase1" data-provider="capabilities" finished-at="2021-04-14T11:54:59Z" duration-ms="18851" status="PASS">
+        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@4c1d9d4b]" started-at="2021-04-14T16:17:51Z" name="testCase1" data-provider="capabilities" finished-at="2021-04-14T16:18:11Z" duration-ms="20049" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@60dcc9fe]" started-at="2021-04-14T11:54:59Z" name="testCase1" data-provider="capabilities" finished-at="2021-04-14T11:55:14Z" duration-ms="15743" status="PASS">
+        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@4c1d9d4b]" started-at="2021-04-14T16:18:11Z" name="testCase1" data-provider="capabilities" finished-at="2021-04-14T16:18:41Z" duration-ms="30398" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@60dcc9fe]" started-at="2021-04-14T11:55:14Z" name="testCase1" data-provider="capabilities" finished-at="2021-04-14T11:55:27Z" duration-ms="12130" status="PASS">
+        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@4c1d9d4b]" started-at="2021-04-14T16:18:41Z" name="testCase1" data-provider="capabilities" finished-at="2021-04-14T16:18:53Z" duration-ms="12060" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@60dcc9fe]" started-at="2021-04-14T11:55:27Z" name="testCase1" data-provider="capabilities" finished-at="2021-04-14T11:55:50Z" duration-ms="23755" status="PASS">
+        <test-method signature="testCase1(org.json.simple.JSONObject)[pri:0, instance:com.browserstack.tests.SampleTest@4c1d9d4b]" started-at="2021-04-14T16:18:53Z" name="testCase1" data-provider="capabilities" finished-at="2021-04-14T16:19:17Z" duration-ms="24026" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,5 +53,5 @@
         </test-method> <!-- testCase1 -->
       </class> <!-- com.browserstack.tests.SampleTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- com.browserstack.tests.SampleTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>

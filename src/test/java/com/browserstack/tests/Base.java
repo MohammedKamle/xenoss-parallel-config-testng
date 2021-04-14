@@ -2,18 +2,15 @@ package com.browserstack.tests;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.DataProvider;
-
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;
 
 public abstract class Base {
-    protected static  final String USERNAME = "";
-    protected static  final String ACCESSKEY = "";
+    protected static  final String USERNAME = "mohammedk1";
+    protected static  final String ACCESSKEY = "spBCpUJaVTnvxxssFtEJ";
     protected static  final String SERVER = "hub-cloud.browserstack.com";
     protected JSONParser parser = new JSONParser();
     protected JSONObject config = (JSONObject) parser.parse(new FileReader("src/test/resources/conf.json"));

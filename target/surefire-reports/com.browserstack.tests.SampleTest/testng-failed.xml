@@ -6,4 +6,13 @@
       <class name="com.browserstack.tests.SampleTest"/>
     </classes>
   </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.browserstack.tests.SampleTest">
+        <methods>
+          <include name="testCase1" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.browserstack.tests.SampleTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [com.browserstack.tests.SampleTest] -->
