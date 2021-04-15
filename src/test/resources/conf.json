@@ -5,19 +5,18 @@
     "name": "parallel_test",
     "browserstack.debug": true
   },
-
   "environments": {
-    "env1": {
+    "chrome": {
       "browser": "chrome"
     },
-    "env2": {
+    "firefox": {
       "browser": "firefox"
     },
-    "env3": {
+    "safari": {
       "os": "OS X",
       "browser": "safari"
     },
-    "env4": {
+    "Google Pixel 4": {
       "device": "Google Pixel 4",
       "os_version": "11.0"
     }
