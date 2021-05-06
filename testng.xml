@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/mohammed/xenoss2/sagepub-demoRep" parallel="methods" thread-count="5">
+    <classes>
+        <class name="com.browserstack.tests.SampleTest">
+        </class>
+    </classes>
+    </test>
+</suite>

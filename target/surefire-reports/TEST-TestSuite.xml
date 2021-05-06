@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestSuite" time="87.549" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="TestSuite" time="66.475" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/mohammed/sagepub/demo-repo"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mohammed/xenoss2/sagepub-demoRep"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/mohammed/sagepub/demo-repo"/>
+    <property name="user.dir" value="/Users/mohammed/xenoss2/sagepub-demoRep"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -61,8 +61,8 @@
     <property name="java.vendor.version" value="18.9"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="15.728"/>
-  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="34.174"/>
-  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="14.408"/>
-  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="23.239"/>
+  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="14.748"/>
+  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="15.249"/>
+  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="12.784"/>
+  <testcase classname="com.browserstack.tests.SampleTest" name="testCase1" time="23.694"/>
 </testsuite>

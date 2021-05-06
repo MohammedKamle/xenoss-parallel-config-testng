@@ -1,7 +1,7 @@
 {
   "url": "https://www.google.com/",
   "capabilities": {
-    "build": "browserstack-build-1",
+    "build": "browserstack-build-2",
     "name": "parallel_test",
     "browserstack.debug": true
   },
